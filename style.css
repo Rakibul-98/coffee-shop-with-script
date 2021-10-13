@@ -1,0 +1,195 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.top-section{
+    background-image: url(images/COFFEE\ \(1\).png);
+    background-position: center;
+}
+.navbar{
+    background-color: #F3C7B4;
+}
+.navbar-nav{
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-link{
+    margin: 0 10px;
+}
+.nav-link:hover{
+    box-shadow: 2px 2px 5px rgb(248, 120, 141);
+    font-weight: bold;
+}
+.logo{
+    margin: 0 3rem;
+    font-weight: bolder;
+}
+.logo-collapse{
+    text-align: center;
+}
+.logo-collapse a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(75, 75, 75);
+}
+@media (max-width:991px) {
+    .logo-collapse{
+        margin-top: 50px;
+        font-size: 30px;
+    }
+    .logo{
+        margin: 0 0 0 10px;
+    }
+}
+.coffee{
+    height: 400px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.care-heading{
+    background-color: #15A371;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    margin: 0 auto;
+    width: 20%;
+}
+.our-coffee-section{
+    background-image: url(images/Untitled\ design.png);
+}
+.our-coffee-text-div{
+    max-width: 400px;
+    min-height: 500px;
+    color: white;
+}
+.inner-div{
+    padding-top: 50px;
+    max-width: 400px;
+}
+.ethics-section{
+    background-color: #FFD03F;
+    min-height: 500px;
+    padding: 20px;
+}
+.coffee-bean-img{
+    max-height: 300px;
+    margin-top: -7rem;
+}
+.card{
+    background-position: center;
+    background-size: cover;
+    color: white;
+    min-height: 350px;
+}
+.card-text{
+    padding: 30px;
+    text-align: center;
+    margin-top: 70px;
+}
+.quick-bites{
+    background-image: url(images/Group\ 81@1X.png);
+}
+.meals{
+    background-image:url(images/Rectangle\ 25@1X.png);
+}
+.share{
+    background-image: url(images/Group\ 83@1X.png);
+}
+.drinks{
+    background-image: url(images/Rectangle\ 28@1X.png);
+}
+.children{
+    background-image: url(images/Group\ 89@1X.png);
+}
+.cake{
+    background-image: url(images/Rectangle\ 34@1X.png);
+}
+.card button{
+    border: 1px solid white;
+    background: none;
+    color: white;
+    padding: 3px 20px;
+}
+.card button:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+.quick-bites-section{
+    background-color: #FFE0BC;
+}
+.price{
+    float: right;
+}
+.order-button{
+    border: none;
+    margin-top: 20px;
+    background:#15A371;
+    padding: 8px 100px;
+    color: white;
+    margin-bottom: 30px;
+}
+.order-button:hover{
+    box-shadow: 5px 5px 10px #696b6b;
+    font-weight: bold;
+}
+#order-status{
+    color: lawngreen;
+    font-size: 30px;
+    font-weight: 900;
+    display: none;
+}
+.gallery-section{
+    background-color: #372F2D;
+    padding: 100px 0;
+}
+.gallery{
+    width: 50%;
+    margin: 0 auto;
+    border: 5px solid white;
+}
+.map-section{
+    background-color: #F3C7B4;
+    max-width: 100%;
+}
+.map-div{
+    width: 50%;
+    margin: 0 auto;
+    padding: 100px 0;
+    min-height: 450px;
+}
+.address-div{
+    background-color: #72C7A8;
+    color: white;
+    height:450px ;
+    margin-bottom: 20px;
+}
+.visit-btn{
+    border: 1px solid white;
+    background: none;
+    color: white;
+    padding: 3px 20px;
+}
+.visit-btn:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+.map{
+    margin-left: -12px;
+    min-height: 450px;
+    min-width: 265px;
+}
+footer{
+    background-color:#372F2D ;
+    height: 50px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+}
+footer a:hover{
+    color: rgb(248, 120, 141);
+    font-size: 18px;
+    text-decoration: none;
+}
